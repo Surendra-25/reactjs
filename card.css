@@ -1,0 +1,180 @@
+.card-view{
+
+	border: 2px solid #ddd;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	/*flex-direction: column;*/
+}
+
+
+.card1{
+	border: 2px solid #308150;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	width: 25%;
+	text-align: center;
+	border-radius: 10%;
+	background-color: #DBE9E9;
+}
+
+img{
+	width: 70%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 8px 9px red;
+}
+
+button{
+	width: 40%;
+	background-color: green;
+	height: 8%;
+}
+
+.card2{
+	border: 2px solid #308150;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	width: 25%;
+	text-align: center;
+	border-radius: 10%;
+	background-color: #DBE9E9;
+}
+
+.card3{
+	border: 2px solid #308150;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	width: 25%;
+	text-align: center;
+	border-radius: 10%;
+	background-color: #DBE9E9;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px){
+	.card-view{
+
+	border: 2px solid #ddd;
+	display: flex;
+	flex-direction: row;
+	/*justify-content: space-around;*/
+	flex-direction: column;
+}
+
+
+.card1{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 2%;
+	font-size: 25px;
+	width: 90%;
+	text-align: center;
+	border-radius: 10%;
+	background-color: skyblue;
+}
+
+img{
+	width: 70%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 8px 9px red;
+}
+
+button{
+	width: 40%;
+	background-color: green;
+	height: 8%;
+}
+
+.card2{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 2%;
+	font-size: 25px;
+	width: 90%;
+	text-align: center;
+	border-radius: 10%;
+	background-color: skyblue;
+}
+
+.card3{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 2%;
+	font-size: 25px;
+	width: 90%;
+	text-align: center;
+	border-radius: 10%;
+	background-color: skyblue;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 767px){
+		.card-view{
+
+	border: 2px solid #ddd;
+	display: flex;
+	/*flex-direction: row;
+	justify-content: space-around;
+	flex-direction: column;*/
+	flex-wrap: wrap;
+}
+
+
+.card1{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	width: 40%;
+	text-align: center;
+	border-radius: 10%;
+	background-color: purple;
+}
+
+img{
+	width: 90%;
+	border: 2px solid black;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 5px 8px 9px red;
+}
+
+button{
+	width: 40%;
+	background-color: green;
+	height: 8%;
+}
+
+.card2{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	width: 40%;
+	text-align: center;
+	border-radius: 10%;
+	background-color: purple;
+}
+
+.card3{
+	border: 2px solid black;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	width: 40%;
+	text-align: center;
+	border-radius: 10%;
+	background-color: purple;
+}
+}

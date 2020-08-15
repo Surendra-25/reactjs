@@ -1,0 +1,87 @@
+
+body{
+	background-color: #ffdeef;
+}
+.resume{
+	margin-top: 8%;
+}
+.navbar_{
+	margin-top: 8%;
+}
+/*.child{
+	display: flex;
+	padding-left: 4%;
+	padding-right: 4%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: center;*/
+}
+.row{
+	display: flex;
+	padding-left: 4%;
+	padding-right: 4%;
+	flex-direction: row;
+	align-content: center;
+}
+.row2{
+	display: flex;
+	padding-left: 4%;
+	padding-right: 4%;
+	flex-direction: row;
+	align-content: center;
+}
+#card2{
+	margin-left: 18%;
+	width : 30%;
+}
+#card4{
+	margin-left: 20%;
+	width : 33.5%;
+}
+#card1{
+	margin-left: 10%;
+	width: 30%;
+}
+#card3{
+	margin-left: 5.5%;
+	width: 33.5%;
+}
+
+@media only screen and (min-width: 180px) and (max-width: 600px){
+
+.row{
+	display: flex;
+	padding-left: 2%;
+	padding-right: 2%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+}
+.row2{
+	display: flex;
+	padding-left: 2%;
+	padding-right: 2%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+}
+#card2{
+	width:60%;
+	margin-left: 10%
+}
+#card4{
+	width:60%;
+	margin-left: 10%
+}
+#card1{
+
+	margin-bottom: 4%;
+	width: 60%;
+}
+#card3{
+
+	margin-bottom: 4%;
+	width: 60%;
+}
+
+}

@@ -1,0 +1,62 @@
+{
+	"details":{
+		"name":"Surendra",
+		"image":"1.png",
+		"email":"surendra892525@gmail.com",
+		"number":"9652892525",
+		"address":"kakinada"
+	},
+	"careerobjective":{
+		"info":"To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills. Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company."
+	},
+	"educationalqualification":[
+	
+
+		{
+   			"sno":"1",
+			"institute":"KIET",
+			"passoutyear":"2021",
+			"percentage":"74%"
+		},
+		{
+			"sno":"2",
+			"institute":"Andhra Polytechnic",
+			"passoutyear":"2018",
+			"percentage":"78%"
+		},
+		{
+			"sno":"3",
+			"institute":"Z.P.High school",
+			"passoutyear":"2015",
+			"percentage":"96%"
+		}
+
+	],
+
+	"techinicalskills":[
+		{
+		"title":"HTML5"
+	},
+		{
+		"title":"CSS"
+	},
+		{
+		"title":"BOOTSTRAP"
+	},
+	{
+		"title":"JAVASCRIPT"
+	}
+
+	],
+	"achievements":[
+		{
+			"Achieved":"Achieved a merit scholarship in my secondary education"
+		},
+		{
+			"Achieved":"Achieved Excellence certification in NCAT examination"
+		},
+		{
+			"Achieved":"Achieved a certification in football district level championship"
+		}
+	]
+}
